@@ -6,10 +6,10 @@ import time
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 host = socket.gethostname()
-port = 5555
+port = 7777
 serversocket.bind((host,port))
 
-serbersocket.listen(10)
+serversocket.listen(10)
 
 while True:
     clientsocket,addr = serversocket.accept()
