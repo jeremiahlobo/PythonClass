@@ -18,6 +18,9 @@ def __init__(self, percerntCream, brand, flavour, cost, price, volumeLitre, isGM
     self.isGMO = isGMO
 
     IceCreamPail.IceCreamStock +=1
+
+def getPriceWithGST(gst):
+    return self.price + gst
     
 
 ######GETTERS SETTERS ##############
