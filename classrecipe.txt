@@ -1,0 +1,23 @@
+Class IceCream
+
+Instance Variable
+
+float percentCream
+String brand
+String flavour
+float price
+float volumeLitre #defining a unit? litres
+boolean isGMO
+
+
+#Getter and Setters -> get/set instance Variable
+
+#Mutators Methods
+#mutating data before returning it
+getBrand()
+setBrand()
+
+getPriceWithGST(gst) # get gst mutator doesnt work with any 
+
+getPriceWithDiscount(Discount)
+setPriceisValid(newPrice)
