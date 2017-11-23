@@ -20,7 +20,7 @@ def __init__(self, percerntCream, brand, flavour, cost, price, volumeLitre, isGM
     IceCreamPail.IceCreamStock +=1
 
 
-getPriceWithGST(self, gst)
+def getPriceWithGST(self, gst):
     tempPrice = self.price
     tempGST = 1+gst
     tempPrice *= 100

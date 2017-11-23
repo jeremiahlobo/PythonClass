@@ -1,4 +1,4 @@
- from IceCreamPail import IceCreamPail
+from IceCreamPail import IceCreamPail
 
 IceCreamOnShelf = [] #list
 
