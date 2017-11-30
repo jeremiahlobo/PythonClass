@@ -6,7 +6,7 @@ class IceCreamUnitTest:
 		self.init = True
 
 	def testIceCreamPail(self, tmpIceCreamPail):
-
+		IceCreamUnitTest.testIceCreamPail(tmpIceCreamPail)
 		#test for each mutation methods
 
 
